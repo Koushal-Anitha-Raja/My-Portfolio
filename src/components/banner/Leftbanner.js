@@ -1,7 +1,9 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
+import { FaLinkedinIn, FaReact, FaGithub } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import { FaNodeJs, FaVuejs } from "react-icons/fa";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
@@ -53,15 +55,21 @@ const LeftBanner = () => {
             Find me in
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon">
-              <FaFacebookF />
-            </span>
-            <span className="bannerIcon">
-              <FaTwitter />
-            </span>
-            <span className="bannerIcon">
-              <FaLinkedinIn />
-            </span>
+            <a href="https://github.com/Koushal-Anitha-Raja" target="_blank">
+              <span className="bannerIcon">
+                <FaGithub />
+              </span>
+            </a>
+            <a href="https://leetcode.com/AR_koushal/" target="_blank">
+              <span className="bannerIcon">
+                <SiLeetcode />
+              </span>
+            </a>
+            <a href="https://www.linkedin.com/in/arkoushal/" target="_blank">
+              <span className="bannerIcon">
+                <FaLinkedinIn />
+              </span>
+            </a>
           </div>
         </div>
         <div>
@@ -69,18 +77,26 @@ const LeftBanner = () => {
             BEST SKILL ON
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon">
-              <FaReact />
-            </span>
-            <span className="bannerIcon">
-              <SiNextdotjs />
-            </span>
-            <span className="bannerIcon">
-              <SiTailwindcss />
-            </span>
-            <span className="bannerIcon">
-              <SiFigma />
-            </span>
+            <a href="https://react.dev/learn" target="_blank">
+              <span className="bannerIcon">
+                <FaReact />
+              </span>
+            </a>
+            <a href="https://nodejs.org/docs/latest-v19.x/api/" target="_blank">
+              <span className="bannerIcon">
+                <FaNodeJs />
+              </span>
+            </a>
+            <a href="https://tailwindcss.com/docs/installation" target="_blank">
+              <span className="bannerIcon">
+                <SiTailwindcss />
+              </span>
+            </a>
+            <a href="https://vuejs.org/guide/introduction.html" target="_blank">
+              <span className="bannerIcon">
+                <FaVuejs />
+              </span>
+            </a>
           </div>
         </div>
       </div>

@@ -4,20 +4,22 @@ import Banner from "./components/banner/Banner";
 import Features from "./components/features/Features";
 import Projects from "./components/Projects/Projects";
 import Resume from "./components/resume/Resume";
-import Testimonial from "./components/testimonials/testimonials";
+import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
-    <div className="w-full h-auto bg-bodyColor text-gray-100">
+    <div className="w-full h-auto bg-bodyColor text-gray-100 px-4">
+      <Navbar />
       <div className="max-w-screen-1xl mx-auto px-16">
-        <Navbar />
         <br></br>
         <br></br>
         <Banner />
         <Features />
         <Projects />
         <Resume />
-        <Testimonial />
+        <Contact />
+        <Footer />
       </div>
     </div>
   );
