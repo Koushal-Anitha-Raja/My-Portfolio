@@ -13,7 +13,7 @@ const Features = () => {
       className="w-full  py-20 border-b-[1px] border-b-black"
     >
       <Title title="Features" des="What I Do" />
-      <div className="grid grid-cols-3 gap-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-6 xl:gap-20">
         <Card
           title="Code Reviews"
           des="As a software engineer, I will review code to make sure it complies with accepted coding rules and satisfies high standards.

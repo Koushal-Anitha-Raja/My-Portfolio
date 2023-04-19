@@ -7,6 +7,9 @@ import contactImg from "./images/contact/contactImg.png";
 import projectFour from "./images/projects/projectFour.png";
 import projectFive from "./images/projects/projectFive.png";
 import projectSix from "./images/projects/projectSix.png";
+import linkedIn from "./images/contact/linkedIn.jpg";
+import Github from "./images/contact/GitHub.jpeg";
+import gmail from "./images/contact/gmail.jpeg";
 export {
   logo,
   bannerImg,
@@ -17,4 +20,7 @@ export {
   projectFour,
   projectFive,
   projectSix,
+  linkedIn,
+  Github,
+  gmail,
 };

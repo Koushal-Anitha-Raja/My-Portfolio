@@ -5,9 +5,9 @@ import { logo } from "../../assets/index";
 
 const Footer = () => {
   return (
-    <div className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-4 gap-8">
-      <div className="w-full h-full flex flex-col gap-8">
-        <img className="w-32 rounded-full" src={logo} alt="logo" />
+    <div className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols2 lgl:grid-cols-4 gap-8">
+      <div className="w-full h-full flex flex-col lgl:mt-2 mt-96 lgl:py-1 py-72  gap-8">
+        <img className="w-32 lgl:mt-1 rounded-full" src={logo} alt="logo" />
         <p>
           <h3 className="w-full text-lg font-bold"> Let's Chat! </h3>
         </p>
@@ -47,7 +47,7 @@ const Footer = () => {
             target="__blank"
           >
             <li>
-              <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+              <span className="w-full mt-text-lg relative hover:text-designColor duration-300 group cursor-pointer">
                 Portfolio
                 <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
               </span>

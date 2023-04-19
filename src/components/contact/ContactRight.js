@@ -1,37 +1,32 @@
 import React from "react";
-import { gmail } from "../../assets";
+import { Github } from "../../assets";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { SiLeetcode, SiGmail } from "react-icons/si";
 
-const ContactLeft = () => {
+const ContactRight = () => {
   return (
     <div
       className="w-full lgl:w-[30%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] lgl:p-8 p-4 rounded-lg 
           shadow-shadowOne flex flex-col gap-8"
     >
-      <a
-        href="https://mail.google.com/mail/u/0/#inbox?compose=new"
-        target="_blank"
-      >
+      <a href="https://github.com/Koushal-Anitha-Raja" target="_blank">
         <img
           className="w-full h-90 object-cover rounded-lg mb-3"
-          src={gmail}
+          src={Github}
           alt="contactImg"
         />
       </a>
       <div className="flex flex-col gap-4">
         <h3 className=" text-3xl font-bold text-white"> Koushal Anitha Raja</h3>
         <p className="text-lg font-normal text-gray-400">
-          MERN STACK DEVELOPER
+          OPEN SOURCE CONTRIBUTION
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-          I am reaching out to request your feedback on my portfolio. As someone
-          with extensive experience and expertise, I would value your opinion on
-          my work samples and the overall presentation of my portfolio. I have
-          put a great deal of time and effort into creating this collection, and
-          I believe it showcases my skills and accomplishments in a compelling
-          and engaging way.Thank you for your time and consideration. I look
-          forward to hearing from you soon
+          If you are interested in collaborating on this project, please don't
+          hesitate to reach out to me or submit a pull request on the
+          repository. Your help and support would be greatly appreciated, and I
+          believe that together we can create something truly valuable. Thank
+          you for your time and consideration.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className=" text-lightText"> +1(5517861736) </span>
@@ -72,4 +67,4 @@ const ContactLeft = () => {
   );
 };
 
-export default ContactLeft;
+export default ContactRight;

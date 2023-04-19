@@ -14,15 +14,15 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="w-full py-20 border-b-[1px] border-b-black"
+      className="w-full  py-10 lgl:py-20 border-b-[1px] border-b-black"
     >
-      <div className="flex justify-center items-center text-center">
+      <div className="flex justify-center items-center text-center ">
         <Title
           title="VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK"
           des="My Projects"
         />
       </div>
-      <div className="grid grid-cols-3 gap-20 cursor-pointer">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14 ">
         <a href="https://github.com/charan005-dev/fable" target="_blank">
           <ProjectsCard
             title="Social-Story Telling Website"
@@ -61,19 +61,24 @@ const Projects = () => {
           target="_blank"
         >
           <ProjectsCard
-            title=" E-COMMERCE WEBSITE"
+            title="LEETCODE_BLIND 75"
             des=" LeetCode Blind 75 is a curated list of 75 coding problems that are frequently asked in coding interviews by top technology 
             companies.These problems cover a wide range of topics such as arrays, strings, linked lists, trees, graphs, dynamic programming, and more"
             src={projectFour}
           />
         </a>
-        <ProjectsCard
-          title=" MY PORTFOLIO CODEBASE"
-          des=" Check out my portfolio, a curated collection of my best works and experiences showcasing my skills, accomplishments, and 
+        <a
+          href="https://github.com/Koushal-Anitha-Raja/My-portfolio"
+          target="_blank"
+        >
+          <ProjectsCard
+            title=" MY PORTFOLIO CODEBASE"
+            des=" Check out my portfolio, a curated collection of my best works and experiences showcasing my skills, accomplishments, and 
           personality. With a clean and modern design, intuitive layout, and user-friendly interface, it's the perfect platform to present 
           myself and my work to potential clients, employers, and collaborators"
-          src={projectFive}
-        />
+            src={projectFive}
+          />
+        </a>
         <a
           href="https://drive.google.com/drive/folders/1WuO9kbBl2w4Jxo4-ZQjvxGE_ob_TQq7Q?usp=sharing"
           target="_blank"
