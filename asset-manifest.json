@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.fca80c97.css",
-    "main.js": "/static/js/main.f94727a6.js",
-    "static/media/projectOne.jpg": "/static/media/projectOne.4cc464443c9055f99894.jpg",
-    "static/media/projectFive.png": "/static/media/projectFive.241cc94ac829a9286e7a.png",
-    "static/media/logo.png": "/static/media/logo.7fc52df8940e0ea5ecd7.png",
-    "static/media/projectSix.png": "/static/media/projectSix.b7683d7df44333cac3be.png",
-    "static/media/projectTwo.jpg": "/static/media/projectTwo.57b65280af1b5db20053.jpg",
-    "static/media/bannerImg.jpg": "/static/media/bannerImg.b0acb78819f6ff9270fb.jpg",
-    "static/media/gmail.jpeg": "/static/media/gmail.402494439cb01deee381.jpeg",
-    "static/media/projectThree.jpg": "/static/media/projectThree.787fbf2b80d1cb267751.jpg",
-    "static/media/contactImg.png": "/static/media/contactImg.5300a3298cfe04340b98.png",
-    "static/media/GitHub.jpeg": "/static/media/GitHub.63a78ed4baa43c498f4b.jpeg",
-    "index.html": "/index.html",
-    "main.fca80c97.css.map": "/static/css/main.fca80c97.css.map",
-    "main.f94727a6.js.map": "/static/js/main.f94727a6.js.map"
+    "main.css": "/My-portfolio.github.io/static/css/main.fca80c97.css",
+    "main.js": "/My-portfolio.github.io/static/js/main.f54e01d5.js",
+    "static/media/projectOne.jpg": "/My-portfolio.github.io/static/media/projectOne.4cc464443c9055f99894.jpg",
+    "static/media/projectFive.png": "/My-portfolio.github.io/static/media/projectFive.241cc94ac829a9286e7a.png",
+    "static/media/logo.png": "/My-portfolio.github.io/static/media/logo.7fc52df8940e0ea5ecd7.png",
+    "static/media/projectSix.png": "/My-portfolio.github.io/static/media/projectSix.b7683d7df44333cac3be.png",
+    "static/media/projectTwo.jpg": "/My-portfolio.github.io/static/media/projectTwo.57b65280af1b5db20053.jpg",
+    "static/media/bannerImg.jpg": "/My-portfolio.github.io/static/media/bannerImg.b0acb78819f6ff9270fb.jpg",
+    "static/media/gmail.jpeg": "/My-portfolio.github.io/static/media/gmail.402494439cb01deee381.jpeg",
+    "static/media/projectThree.jpg": "/My-portfolio.github.io/static/media/projectThree.787fbf2b80d1cb267751.jpg",
+    "static/media/contactImg.png": "/My-portfolio.github.io/static/media/contactImg.5300a3298cfe04340b98.png",
+    "static/media/GitHub.jpeg": "/My-portfolio.github.io/static/media/GitHub.63a78ed4baa43c498f4b.jpeg",
+    "index.html": "/My-portfolio.github.io/index.html",
+    "main.fca80c97.css.map": "/My-portfolio.github.io/static/css/main.fca80c97.css.map",
+    "main.f54e01d5.js.map": "/My-portfolio.github.io/static/js/main.f54e01d5.js.map"
   },
   "entrypoints": [
     "static/css/main.fca80c97.css",
-    "static/js/main.f94727a6.js"
+    "static/js/main.f54e01d5.js"
   ]
 }
