@@ -29,7 +29,7 @@ const Experience = () => {
             title="Bachelor's in Information Technology"
             subTitle="RMD Engineering College (2017-2021)"
             GPA=" 8.65/10.0"
-            des="I graduated from RMD engineering College with FirstClass-Distinction in May 2021.I completed Program Solving and Python Programming Laboratory,Programming in C,Information Technology Essentials,Design Principles and System Design,
+            des="I graduated from RMD engineering College with FirstClass-Distinction in May 2021.I completed Problem Solving and Python Programming Laboratory,Programming in C,Information Technology Essentials,Design Principles and System Design,
                       Object Oriented Programming, Data Structures, Design and Analysis of Algorithm, Computer Architecture, Database Management Systems,
                       software Engineering, Computer Networks, Web Technology, Big Data Analytics and software Testing "
           />
