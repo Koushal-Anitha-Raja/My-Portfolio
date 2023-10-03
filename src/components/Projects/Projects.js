@@ -8,6 +8,8 @@ import {
   projectFour,
   projectFive,
   projectSix,
+  projectSeven,
+  projectEight,
 } from "../../assets/index";
 
 const Projects = () => {
@@ -46,7 +48,7 @@ const Projects = () => {
             src={projectTwo}
           />
         </a>
-        <a href="https://github.com/inchara05/Team9_ReSprint" targte="_blank">
+        <a href="https://github.com/inchara05/Team9_ReSprint" target="_blank">
           <ProjectsCard
             title="BALOON POPPING GAME"
             des=" The Agile Balloon Popping game tests players' ability to explode as many balloons as they can while also spotting a precise 
@@ -68,17 +70,39 @@ const Projects = () => {
           />
         </a>
         <a
-          href="https://github.com/Koushal-Anitha-Raja/My-portfolio"
+          href="https://github.com/Koushal-Anitha-Raja/ChatGpt_enhanced"
           target="_blank"
         >
           <ProjectsCard
-            title=" MY PORTFOLIO CODEBASE"
-            des=" Check out my portfolio, a curated collection of my best works and experiences showcasing my skills, accomplishments, and 
-          personality. With a clean and modern design, intuitive layout, and user-friendly interface, it's the perfect platform to present 
-          myself and my work to potential clients, employers, and collaborators"
+            title="ChatGpt_Enhanced"
+            des="Create your own ChatGPT clone using the latest React JS, simple HTML, and CSS, powered by Node JavaScript and Express. With this starter kit, you can run your own instance of ChatGPT on your local machine!.
+            Harnessed the power of OpenAI by integrating its API seamlessly into the project. The provided configurations and API key management make the integration process straightforward
+"
             src={projectFive}
           />
         </a>
+        <a
+          href="https://github.com/Koushal-Anitha-Raja/Chrome-Extension-"
+          target="_blank"
+        >
+          <ProjectsCard
+            title="Chrome_extension"
+            des="QuickApp Navigator is a powerful Chrome extension designed to streamline your daily workflow by providing quick and convenient access to your frequently used applications.
+             Built with React, this extension enhances your browsing experience by simplifying app navigation, making it faster and more efficient"
+            src={projectSeven}
+          />
+        </a>
+        {/* <a
+          href="https://github.com/Koushal-Anitha-Raja/Chrome-Extension-"
+          target="_blank"
+        >
+          <ProjectsCard
+            title="Chrome_extension"
+            des="QuickApp Navigator is a powerful Chrome extension designed to streamline your daily workflow by providing quick and convenient access to your frequently used applications.
+             Built with React, this extension enhances your browsing experience by simplifying app navigation, making it faster and more efficient"
+            src={projectEight}
+          />
+        </a> */}
         <a
           href="https://drive.google.com/drive/folders/1WuO9kbBl2w4Jxo4-ZQjvxGE_ob_TQq7Q?usp=sharing"
           target="_blank"

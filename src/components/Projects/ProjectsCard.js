@@ -1,6 +1,7 @@
 import React from "react";
 import { BsGithub } from "react-icons/bs";
 import { FaGlobe } from "react-icons/fa";
+import { BsIconName } from "react-icons/bs";
 
 const ProjectsCard = ({ title, des, src }) => {
   return (
