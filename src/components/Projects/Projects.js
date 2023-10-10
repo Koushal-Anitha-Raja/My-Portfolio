@@ -92,17 +92,16 @@ const Projects = () => {
             src={projectSeven}
           />
         </a>
-        {/* <a
-          href="https://github.com/Koushal-Anitha-Raja/Chrome-Extension-"
-          target="_blank"
-        >
+        <a href="" target="_blank">
           <ProjectsCard
-            title="Chrome_extension"
-            des="QuickApp Navigator is a powerful Chrome extension designed to streamline your daily workflow by providing quick and convenient access to your frequently used applications.
-             Built with React, this extension enhances your browsing experience by simplifying app navigation, making it faster and more efficient"
+            title="Next_JS_SEO "
+            des=" I demonstrate the process of building the official Web Dev website using Next.js version 13, focusing on optimizing performance and achieving exceptionally fast web development results. 
+             The app also provides access 
+            to a wealth of reference materials, and viewers can delve into various aspects of web development, including setup, design, and deployment, 
+            ensuring a comprehensive learning experience"
             src={projectEight}
           />
-        </a> */}
+        </a>
         <a
           href="https://drive.google.com/drive/folders/1WuO9kbBl2w4Jxo4-ZQjvxGE_ob_TQq7Q?usp=sharing"
           target="_blank"
