@@ -81,6 +81,19 @@ const Projects = () => {
             src={projectFive}
           />
         </a>
+
+        <a
+          href="https://drive.google.com/drive/folders/1WuO9kbBl2w4Jxo4-ZQjvxGE_ob_TQq7Q?usp=sharing"
+          target="_blank"
+        >
+          <ProjectsCard
+            title="MRI IMAGE OF CLASSIFICATION OF BRAIN TUMOR"
+            des="Our project is to create a website for Brain Tumor Detection using the Django web platform and a deep neural network. 
+            My research is primarily focused on using a convolution neural network algorithm (CNN)to classify typical brain tumor cells in order
+             to minimize doctors' workload and improve prediction accuracy.This will help doctors to avoid FALSE NEGATIVES and  FALSE POSITIVES in detecting tumor "
+            src={projectSix}
+          />
+        </a>
         <a
           href="https://github.com/Koushal-Anitha-Raja/Chrome-Extension-"
           target="_blank"
@@ -100,18 +113,6 @@ const Projects = () => {
             to a wealth of reference materials, and viewers can delve into various aspects of web development, including setup, design, and deployment, 
             ensuring a comprehensive learning experience"
             src={projectEight}
-          />
-        </a>
-        <a
-          href="https://drive.google.com/drive/folders/1WuO9kbBl2w4Jxo4-ZQjvxGE_ob_TQq7Q?usp=sharing"
-          target="_blank"
-        >
-          <ProjectsCard
-            title="MRI IMAGE OF CLASSIFICATION OF BRAIN TUMOR"
-            des="Our project is to create a website for Brain Tumor Detection using the Django web platform and a deep neural network. 
-            My research is primarily focused on using a convolution neural network algorithm (CNN)to classify typical brain tumor cells in order
-             to minimize doctors' workload and improve prediction accuracy.This will help doctors to avoid FALSE NEGATIVES and  FALSE POSITIVES in detecting tumor "
-            src={projectSix}
           />
         </a>
       </div>
