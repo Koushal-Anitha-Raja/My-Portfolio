@@ -42,6 +42,18 @@ const Experience = () => {
         </div>
         <div className="mt-3 lgl:mt-8 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
+            title="FullStack Developer"
+            subTitle="Lorhan corporation"
+            GPA="Aug 2023 -present "
+            des="• Spearheaded full-stack development initiatives, working collaboratively within a dynamic team to deliver robust and
+            scalable solutions
+            • Implementing RESTful APIs in Node.js for seamless communication between the React frontend and
+            MongoDB database. Integrating third-party APIs for payment gateways, enhancing transactional capabilities
+            and user experience
+            • Leveraging Docker for containerization and orchestrating deployments on Kubernetes, ensuring scalability and
+            high availability."
+          />
+          <ResumeCard
             title="Web Development Internship"
             subTitle=" Verzeo Technologies"
             GPA=" Nov 2020 -Dec 2020 "

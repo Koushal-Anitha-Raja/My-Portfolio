@@ -54,7 +54,7 @@ const Footer = () => {
             </li>
           </a>
           <a
-            href="https://drive.google.com/file/d/1S54zCk4zPTv4FPdPGFF5SbHpls36mPYw/view?usp=share_link"
+            href="https://drive.google.com/file/d/1IeBBDNbtMjpq8W_-r1hV1pLzFnHZhABr/view?usp=sharing"
             target="__blank"
           >
             <li>
