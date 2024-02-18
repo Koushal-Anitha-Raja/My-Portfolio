@@ -6,6 +6,7 @@ import {
   projectThree,
   projectOne,
   projectFour,
+  projectspotify,
   projectFive,
   projectSix,
   projectSeven,
@@ -36,6 +37,20 @@ const Projects = () => {
           />
         </a>
         <a
+          href="https://github.com/Koushal-Anitha-Raja/Spotify-Tune"
+          target="_blank"
+        >
+          <ProjectsCard
+            title="Spotify-Tune"
+            des=" I engineered a ReactJS-powered application with Redux for robust state management and employed Tailwind CSS to finesse the 
+            user interface. The project mirrors Spotify's functionality, utilizing the Rapid API for data retrieval. Users can execute targeted
+            song searches, access features like shuffle, navigate through previous and next tracks seamlessly, and precisely control playback
+            to specific seconds within a song. The Geolocation API enhances the application's geographic specificity, revealing songs popular
+            in distinct regions"
+            src={projectspotify}
+          />
+        </a>
+        <a
           href="https://github.com/darshil1899/group13_cs546C_project"
           target="_blank"
         >
@@ -48,6 +63,7 @@ const Projects = () => {
             src={projectTwo}
           />
         </a>
+
         <a href="https://github.com/inchara05/Team9_ReSprint" target="_blank">
           <ProjectsCard
             title="BALOON POPPING GAME"

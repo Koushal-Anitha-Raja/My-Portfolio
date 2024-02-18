@@ -7,6 +7,7 @@ import contactImg from "./images/contact/contactImg.png";
 import projectFour from "./images/projects/projectFour.png";
 import projectFive from "./images/projects/projectFive.jpg";
 import projectSix from "./images/projects/projectSix.png";
+import projectspotify from "./images/projects/projectspotify.jpg";
 import projectSeven from "./images/projects/projectSeven.jpg";
 import projectEight from "./images/projects/projectEight.png";
 import linkedIn from "./images/contact/linkedIn.jpg";
@@ -24,6 +25,7 @@ export {
   projectSix,
   projectSeven,
   projectEight,
+  projectspotify,
   linkedIn,
   Github,
   gmail,
