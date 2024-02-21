@@ -121,7 +121,7 @@ const Projects = () => {
             src={projectSeven}
           />
         </a>
-        <a href="" target="_blank">
+        <a href="https://webdevresources-mu.vercel.app/" target="_blank">
           <ProjectsCard
             title="Next_JS_SEO "
             des=" I demonstrate the process of building the official Web Dev website using Next.js version 13, focusing on optimizing performance and achieving exceptionally fast web development results. 

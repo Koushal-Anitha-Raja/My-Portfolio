@@ -4,17 +4,25 @@ import { logo } from "../../assets/index";
 import { navLinksdata } from "../../constants";
 
 const Navbar = () => {
+  const handleButtonClick = () => {
+    // Reloading the page
+    window.location.reload();
+  };
   return (
     <section id="home">
       <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titlefont border-b-[1px] border-b-gray-600">
         <div>
-          <img
-            className="rounded-full"
-            src={logo}
-            alt="logo"
-            width="50"
-            height="65"
-          />
+          <button
+            className="bg-black hover:bg-gray-800 rounded-full p-2 focus:outline-none"
+            onClick={handleButtonClick}
+          >
+            {/* Apply rounded styling to the image */}
+            <img
+              src={logo}
+              alt="logo"
+              className="w-12 h-12 object-cover rounded-full"
+            />
+          </button>
         </div>
         <div>
           <ul className="flex items-center gap-12">
